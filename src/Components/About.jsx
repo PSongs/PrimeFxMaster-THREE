@@ -12,7 +12,7 @@ const About = () => {
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, '_blank');
   };
-  
+
   return (
     <div>
       <div className="About">
@@ -80,7 +80,7 @@ const About = () => {
                 objiective.
               </p>
 
-              <button className="Meet-Btn" onClick={openWhatsApp}>Consult with a Specialist</button>
+              <button className="Meet-Btn" onClick={openWhatsApp}><a>Consult with a Specialist</a></button>
             </div>
 
             <div className="MEET-IMAGE"></div>
