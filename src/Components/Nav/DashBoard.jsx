@@ -160,7 +160,7 @@ const DashBoard = () => {
                     Trade
                   </button>
                 </Link>
-                <button className='w-full sm:w-32 h-16 rounded-full text-lg bg-green-500 text-white'><Link to="#">Deposit</Link></button>
+                <button className='w-full sm:w-32 h-16 rounded-full text-lg bg-green-500 text-white'><Link to="/Donate">Deposit</Link></button>
                 <button className='w-full sm:w-32 h-16 rounded-full text-lg bg-green-50 text-green-500'><Link to="/v">Withdraw</Link></button>
               </>
             )}

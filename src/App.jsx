@@ -27,6 +27,7 @@ import ChartReal from "./Components/ChartReal";
 import Withdrawal from "./Components/Withdraw";
 import ScrollToTop from "./Components/ScrollToTop";
 import TermsAndConditions from "./Components/TermAndConditions";
+import Donate from "./Page/Donate";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function AppContent() {
             <Route path="/realTrade" element={<ChartReal />} />
             <Route path="/Admin" element={<Admin />} />
             <Route path="/v" element={<Withdrawal />} />
+            <Route path="/Donate" element={<Donate />} />
             <Route path="/TermsAndCondition" element={<TermsAndConditions />} />
           </Routes>
           {isLoggedIn ? (

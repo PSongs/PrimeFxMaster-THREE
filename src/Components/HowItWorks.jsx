@@ -124,7 +124,7 @@ const HowItWorks = () => {
             <h3>Fund: $200 $2,000</h3>
             <h3>Earn: $700 $7,500</h3>
             <h3>Duration: 48hrs</h3>
-            <button>Purchase Now</button>
+            <button><Link to="/Donate">Purchase Now</Link></button>
           </div>
 
           <div className="Plan">
@@ -132,7 +132,7 @@ const HowItWorks = () => {
             <h3>Fund: $3,000 $15,000</h3>
             <h3>Earn: $12,00 $75,000</h3>
             <h3>Duration: 7 days</h3>
-            <button>Purchase Now</button>
+            <button><Link to="/Donate">Purchase Now</Link></button>
           </div>
 
           <div className="Plan">
@@ -140,7 +140,7 @@ const HowItWorks = () => {
             <h3>Fund: 1 BTC 5 BTC</h3>
             <h3>Earn: 2.5 BTC 12.5 BTC</h3>
             <h3>Duration: 30days</h3>
-            <button>Purchase Now</button>
+            <button><Link to="/Donate">Purchase Now</Link></button>
           </div>
         </div>
       </div> 
